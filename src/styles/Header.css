@@ -1,0 +1,11 @@
+header{
+    background-color: #ff3300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h3{
+    padding-left: 1%;
+}

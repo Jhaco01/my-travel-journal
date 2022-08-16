@@ -1,0 +1,41 @@
+article{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 5%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid #f0f0f5;
+}
+
+img{
+    width: 23%;
+    height: 35vh;
+    border-radius: 8px;    
+}
+
+h1{
+    font-size: 2.2vw;
+    margin-top: 0%;
+}
+
+.text-content{
+    margin-left: 3%;
+}
+
+i{
+    color: brown;
+}
+
+.country{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.2vw;
+}
+
+a{
+    color: #b3b3cb;
+}
+
+.description{
+    font-family: 'Inter', sans-serif;
+    line-height: 4vh;
+    font-size: 1.2vw;
+}
