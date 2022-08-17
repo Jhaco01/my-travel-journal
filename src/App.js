@@ -8,6 +8,7 @@ export const App = () => {
 
   const places = Data.map( (data) => {
     return (< Place 
+      key={data.id}
       {...data}
     />)
   } )

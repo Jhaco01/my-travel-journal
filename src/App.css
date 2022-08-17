@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 .App{
-  width: 55%;
+  width: 55%;  
   margin: auto;
   margin-top: 0%;
+}
+
+@media screen and (max-width: 850px) and (min-width: 750px) {
+  .App{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .App{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+    .App{
+      width: 100%;
+    }
 }

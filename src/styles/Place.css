@@ -10,6 +10,8 @@ img{
     width: 23%;
     height: 35vh;
     border-radius: 8px;    
+    object-fit: cover;
+    object-position: center;
 }
 
 h1{
@@ -28,10 +30,13 @@ i{
 .country{
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.2vw;
+    font-size: 1.3vw;
 }
 
 a{
     color: #b3b3cb;
+    font-size: 1.3vw;
+    margin-left: 2%;
 }
 
 .description{
@@ -39,3 +44,77 @@ a{
     line-height: 4vh;
     font-size: 1.2vw;
 }
+
+.date{
+    font-size: 1.3vw;
+}
+
+@media screen and (max-width: 850px) and (min-width: 750px) {
+    img{
+      height: 30vh;
+    }
+  }
+  
+  @media screen and (max-width: 750px) and (min-width: 650px) {
+    img{
+      height: 25vh;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    
+    img{
+        height: 30vh;
+    }
+    
+    h1{
+        font-size: 3.5vw;
+    }
+
+    .country, a, i, .date{
+        font-size: 1.8vw;
+    }
+
+    .description{
+        font-size: 2vw;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+
+    article{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 65%;
+        height: 45vh;
+        border-radius: 8px;    
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 3%;
+    }
+
+    .text-content{
+        text-align: center;        
+    }
+
+    .country, a, i, .date{
+        font-size: 3vw;
+    }
+
+    h1{
+        font-size: 5vw;        
+    }
+
+    .description{
+        text-align: left;
+        font-size: 3vw;
+        margin-right: 3%;
+    }
+
+  }
+
+  
